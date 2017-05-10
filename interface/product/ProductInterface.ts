@@ -2,7 +2,7 @@
 /**
  * product interface
  */
-interface ProductInterface {
+export interface ProductInterface {
 
     /** get product info */
     getProductInfo(productId: string);

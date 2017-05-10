@@ -2,7 +2,7 @@
 /**
  * bonus interface
  */
-interface BonusInterface {
+export interface BonusInterface {
 
     /** get bonus total */
     getBonus();

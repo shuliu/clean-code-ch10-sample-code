@@ -2,7 +2,7 @@
 /**
  * member auth interface
  */
-interface AuthInterface {
+export interface AuthInterface {
 
     /** logout */
     logout();

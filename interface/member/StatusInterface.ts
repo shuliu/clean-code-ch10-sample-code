@@ -2,7 +2,7 @@
 /**
  * member status interface
  */
-interface StatusInterface {
+export interface StatusInterface {
 
     /** get member status */
     getStatus();

@@ -2,7 +2,7 @@
 /**
  * cart interface
  */
-interface CartInterface {
+export interface CartInterface {
 
     /** get cart */
     getCart();

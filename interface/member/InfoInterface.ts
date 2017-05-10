@@ -2,7 +2,7 @@
 /**
  * member information interface
  */
-interface InfoInterface {
+export interface InfoInterface {
 
     /** get member info object */
     getInfo();

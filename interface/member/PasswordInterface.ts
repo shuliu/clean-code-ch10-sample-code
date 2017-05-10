@@ -2,7 +2,7 @@
 /**
  * member password interface
  */
-interface PasswordInterface {
+export interface PasswordInterface {
 
     /** forget password: email, user name */
     forgetpassword(validateMessage: string);

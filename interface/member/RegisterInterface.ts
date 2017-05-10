@@ -2,7 +2,7 @@
 /**
  * member register interface
  */
-interface RegisterInterface {
+export interface RegisterInterface {
 
     /** register */
     register();
