@@ -1,5 +1,7 @@
-import Rx from '../node_modules/rxjs/Rx';
 
+/**
+ * Member Interface
+ */
 interface MemberInterface {
 
     /** logout */
@@ -46,7 +48,9 @@ interface MemberInterface {
 }
 
 
-
+/**
+ * Member super class
+ */
 class Member implements MemberInterface {
 
     private User: object;
@@ -105,16 +109,7 @@ class Member implements MemberInterface {
      * ajax mathod
      */
     private ajaxGet(url: string, sendData: object) {};
-    private ajaxPost(url: string, sendData: object) {
-        Rx.Observable.ajax
-        .post(url, sendData)
-        .merge( (response) => {
-            return response;
-        })
-        .mapTo( (response) => {
-            return response;
-        } );
-    };
+    private ajaxPost(url: string, sendData: object) {};
 
     /**
      * render
