@@ -2,10 +2,22 @@ import Rx from '../node_modules/rxjs/Rx';
 
 interface MemberInterface {
 
-    /** login */
-    login(user: string, password: string);
     /** logout */
     logout();
+
+    /** login */
+    login(user: string, password: string);
+    /** login with facebook */
+    loginWithFacebook();
+    /** login with twitter */
+    loginWithTwitter();
+
+    /** register */
+    register();
+    /** register with facebook */
+    registerWithFacebook();
+    /** register with twitter */
+    registerWithTwitter();
 
     /** forget password: email, user name */
     forgetpassword(validateMessage: string);
@@ -41,33 +53,39 @@ class Member implements MemberInterface {
     
     constructor() {};
     
-    /** login */
-    login () {};
-    
     /** logout */
-    logout () {};
-    
+    logout() {};
+
+    /** login */
+    login(user: string, password: string) {};
+    /** login with facebook */
+    loginWithFacebook() {};
+    /** login with twitter */
+    loginWithTwitter() {};
+
+    /** register */
+    register() {};
+    /** register with facebook */
+    registerWithFacebook() {};
+    /** register with twitter */
+    registerWithTwitter() {};
+
     /** forget password: email, user name */
     forgetpassword(validateMessage: string) {};
-
     /** change password */
     changePassword(oldPassword: string, newPassword: string, newPasswordConfirmation: string) {};
 
     /** get member status */
     getStatus() {};
-
     /** get member info object */
     getInfo() {};
-
     /** update member info */
     setInfo(Info: object) {};
 
     /** get bonus total */
     getBonus() {};
-
     /** get bonus list */
     getBonusList() {};
-
     /** get bonus once info */
     getBonusInfo(bonusId: string) {};
 
