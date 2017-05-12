@@ -1,4 +1,4 @@
-import { AuthInterface } from './../../interface/member/AuthInterface';
+import { AuthInterface } from './../../../interface/Member/Auth/AuthInterface';
 
 export class Auth implements AuthInterface {
 

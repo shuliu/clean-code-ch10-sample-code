@@ -1,6 +1,6 @@
-import { RegisterInterface } from './../../interface/member/RegisterInterface';
-import { RegisterWithFacebookInterface } from './../../interface/member/RegisterWithFacebookInterface';
-import { RegisterWithTwitterInterface } from './../../interface/member/RegisterWithTwitterInterface';
+import { RegisterInterface } from './../../../interface/Member/Auth/RegisterInterface';
+import { RegisterWithFacebookInterface } from './../../../interface/Member/Auth/RegisterWithFacebookInterface';
+import { RegisterWithTwitterInterface } from './../../../interface/Member/Auth/RegisterWithTwitterInterface';
 
 export class Register implements RegisterInterface {
 
