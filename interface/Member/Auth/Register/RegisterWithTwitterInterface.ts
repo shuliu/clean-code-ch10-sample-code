@@ -4,7 +4,8 @@
  */
 export interface RegisterWithTwitterInterface {
 
+    register();
     /** register with twitter */
-    registerWithTwitter();
+    twitter();
 
 }

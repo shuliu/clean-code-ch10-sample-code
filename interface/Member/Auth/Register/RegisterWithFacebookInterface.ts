@@ -5,6 +5,6 @@
 export interface RegisterWithFacebookInterface {
 
     /** register with facebook */
-    registerWithFacebook();
+    facebook();
 
 }
