@@ -1,7 +1,12 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "amd",
-        "sourceMap": false
+        "lib": ["es6", "dom"],
+        "types": ["reflect-metadata"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     }
 }

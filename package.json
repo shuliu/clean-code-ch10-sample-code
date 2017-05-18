@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "inversify": "^4.1.0",
+    "reflect-metadata": "^0.1.10",
     "rxjs": "^5.3.1"
   }
 }
