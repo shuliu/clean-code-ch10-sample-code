@@ -1,0 +1,8 @@
+{
+    "name": "tslint5",
+    "owner": "tslint",
+    "applyTo": "closedDocuments",
+    "fileLocation": "absolute",
+    "severity": "warning",
+    "pattern": "$tslint5"
+}
