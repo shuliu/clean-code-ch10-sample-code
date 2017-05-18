@@ -18,9 +18,10 @@ class Bird extends Animal {
 }
 
 let aDog = new Dog('汪醬');
-let aCat = new Dog('老大');
-let aBird = new Dog('啾揪');
+let aCat = new Cat('老大');
+let aBird = new Bird('啾揪');
 
 console.log( aDog.getName() );
 console.log( aCat.getName() );
 console.log( aBird.getName() );
+
